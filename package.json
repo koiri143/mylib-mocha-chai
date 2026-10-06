@@ -1,0 +1,17 @@
+{
+  "name": "mylib-mocha-chai",
+  "version": "1.0.0",
+  "description": "Small arithmetic library tested with Mocha and Chai",
+  "type": "module",
+  "main": "mylib.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha tests"
+  },
+  "author": "Anil Koiri",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
